@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>For Moti 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Poppins,sans-serif;background:linear-gradient(135deg,#fff0f6,#ffd1e3,#ffeef5);color:#71304d;overflow-x:hidden}.petals{position:fixed;inset:0;pointer-events:none;overflow:hidden}.petal{position:absolute;top:-30px;width:15px;height:22px;background:#ff91b8;border-radius:80% 20% 80% 20%;opacity:.65;animation:fall linear infinite}@keyframes fall{to{transform:translate3d(var(--d),110vh,0) rotate(540deg)}}.wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;position:relative;z-index:1}.card{width:min(850px,100%);padding:45px 25px;text-align:center;background:#ffffffb8;border-radius:35px;box-shadow:0 20px 65px #b545702e;backdrop-filter:blur(12px)}.top{font-size:12px;letter-spacing:4px;text-transform:uppercase;color:#b75b7e}h1{font-family:'Great Vibes',cursive;font-size:clamp(70px,14vw,110px);font-weight:400;color:#c83e72;margin:5px 0}.sub{font-style:italic;color:#9b5270}.flowers{font-size:40px;letter-spacing:7px;margin:25px 0}.message{max-width:720px;margin:auto;padding:30px 22px;border-radius:25px;background:#ffe5efb8;border:1px solid #ffd0e0}.message p{font-family:Georgia,serif;font-size:clamp(22px,4vw,31px);line-height:1.7;margin:0}.heart{font-size:38px;margin-top:18px;animation:pulse 1.5s infinite}@keyframes pulse{50%{transform:scale(1.2)}}button{margin-top:25px;padding:13px 28px;border:0;border-radius:30px;background:#d94c82;color:white;font:600 14px Poppins;cursor:pointer}.footer{margin-top:25px;font-size:11px;letter-spacing:2px;color:#b56a87}
+</style>
+</head>
+<body><div class="petals" id="petals"></div><div class="wrap"><main class="card">
+<div class="top">A little memory, just for you</div><h1>Moti</h1><div class="sub">some memories are too special to forget... 💗</div>
+<div class="flowers">🌷 🌸 🪻 🌷 🌸</div>
+<section class="message"><p>“Moti Tereko yaad h kya jb hum phli bar mille the toh ksa tha sb kuch m ksa tha tu kesi thi hum logo kse the”</p><div class="heart">💗</div></section>
+<div class="flowers">🌷 🪻 🌷</div><button onclick="location.href='page2.html'">Next page 💕</button>
+<div class="footer">made with love & memories</div></main></div>
+<script>for(let i=0;i<25;i++){let p=document.createElement('span');p.className='petal';p.style.left=Math.random()*100+'vw';p.style.animationDuration=7+Math.random()*8+'s';p.style.animationDelay=-Math.random()*12+'s';p.style.setProperty('--d',Math.random()*180-90+'px');document.getElementById('petals').appendChild(p)}</script>
+</body></html>
